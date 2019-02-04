@@ -18,10 +18,11 @@
     <session id="587676802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,19 +33,19 @@
           <entry key="js" value="4" />
           <entry key="json" value="3" />
           <entry key="log" value="1" />
-          <entry key="php" value="135" />
+          <entry key="php" value="139" />
           <entry key="scss" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="4" />
-          <entry key="Blade" value="33" />
+          <entry key="Blade" value="35" />
           <entry key="CSS" value="3" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="4" />
           <entry key="Log" value="1" />
-          <entry key="PHP" value="102" />
+          <entry key="PHP" value="104" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="3" />
         </counts>
@@ -54,15 +55,15 @@
           <entry key="dummy" value="13" />
           <entry key="env" value="87" />
           <entry key="js" value="1" />
-          <entry key="php" value="6999" />
+          <entry key="php" value="7041" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="87" />
-          <entry key="Blade" value="2210" />
+          <entry key="Blade" value="2220" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="4789" />
+          <entry key="PHP" value="4821" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -81,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
+            <state relative-caret-position="320">
               <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
@@ -90,14 +91,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CosmonautController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3146">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="280">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers-repositories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/master/layout/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/master/component/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Cosmonaut/CosmonautRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="662">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -166,8 +203,8 @@
         <option value="$PROJECT_DIR$/resources/views/home/layout/create.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/master/component/header.blade.php" />
         <option value="$PROJECT_DIR$/app/Cosmonaut/CosmonautRepository.php" />
+        <option value="$PROJECT_DIR$/resources/views/master/component/header.blade.php" />
       </list>
     </option>
   </component>
@@ -290,6 +327,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,15 +358,63 @@
               <item name="evidence" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evidence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evidence" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;CosmonautItem&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautItem.php&#10;reposito&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;repo&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;Reposit&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;web.p&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;web.ph&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;web.php&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;welc&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/resources/views/welcome.blade.php&#10;cosmonautrep&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;migration&#9;null&#9;null&#10;migra&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php&#10;routes&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Repositp&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;web&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;CosmonautItem&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautItem.php&#10;reposito&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;repo&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;Reposit&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;web.p&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;web.ph&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;web.php&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/routes/web.php&#10;welc&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/resources/views/welcome.blade.php&#10;cosmonautrep&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/app/Cosmonaut/CosmonautRepository.php&#10;migration&#9;null&#9;null&#10;migra&#9;FILE&#9;file:///Users/martincerveny/Code/web/evidence/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php&#10;routes&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -369,17 +455,19 @@
       <updated>1548855498501</updated>
       <workItem from="1548855499811" duration="41000" />
       <workItem from="1548862060469" duration="27282000" />
+      <workItem from="1549274426632" duration="22000" />
+      <workItem from="1549302435492" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28927000" />
+    <option name="totallyTimeSpent" value="29845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-247" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49951503" visible="true" weight="0.18849841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49951503" visible="true" weight="0.19169329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50048494" side_tool="true" weight="0.18849841" />
@@ -538,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,16 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-          <folding>
-            <element signature="e#83#121#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers-repositories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -648,23 +723,6 @@
         <state relative-caret-position="-41" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Cosmonaut/CosmonautRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1238">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#33#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Cosmonaut/CosmonautItemInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -686,20 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master/layout/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master/component/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -716,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
+        <state relative-caret-position="320">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="e#7#389#0#PHP" expanded="true" />
@@ -726,11 +770,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CosmonautController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3146">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="280">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers-repositories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/master/layout/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Cosmonaut/CosmonautRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/master/component/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>

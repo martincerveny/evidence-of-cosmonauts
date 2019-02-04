@@ -24,6 +24,7 @@ class CosmonautRepository implements CosmonautRepositoryInterface
     public function getAllItems(): array
     {
         $rows = $this->getQueryBuilder()
+            ->orderBy('id', 'asc')
             ->get()
             ->toArray();
 
